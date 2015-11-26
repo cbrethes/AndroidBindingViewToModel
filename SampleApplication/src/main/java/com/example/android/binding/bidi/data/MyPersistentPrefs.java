@@ -1,8 +1,12 @@
+/*
+ * Copyright (c) 2015. Christophe BRETHES.
+ * You can copy, modify, use this for your application and if this stuff is usefull for you,
+ *  just let me know 'cbrethes at gmail.com' http://devbreezecorner.blogspot.fr/
+ */
+
 package com.example.android.binding.bidi.data;
 
-/**
- * Created by tof on 12/11/2015.
- */
+
 public class MyPersistentPrefs {
     //the id used as prefsname
     private String id ;

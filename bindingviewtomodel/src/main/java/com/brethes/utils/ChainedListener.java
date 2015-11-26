@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2015. Christophe BRETHES.
+ * You can copy, modify, use this for your application and if this stuff is usefull for you,
+ *  just let me know 'cbrethes at gmail.com' http://devbreezecorner.blogspot.fr/
+ */
+
 package com.brethes.utils;
 
 import android.os.Build;
@@ -12,9 +18,16 @@ import java.util.Collection;
 import java.util.LinkedHashSet;
 
 /**
- * Created by tof on 19/11/2015.
+ * Class usefull to chain EventListener on widget that allow only one eventlistener.
+ *
+ * For now, the class is useless because android SDK does not offer to get back eventlistener.
+ * I tried some reflect but doesnt work anymore. I dont want to go further in this way because, i think this is wasted time
+ * So for now, the ChainedListener can chain nothing. I keep this class for the day we will have a getEventListener corresponding to setEventListener.
+ *
+ *
  */
 public class ChainedListener implements View.OnClickListener , CompoundButton.OnCheckedChangeListener, RadioGroup.OnCheckedChangeListener {
+    public static final boolean DISABLED = true ;
     protected static final String TAG = "ChainedListener" ;
     protected LinkedHashSet listeners = new LinkedHashSet();
 
@@ -25,6 +38,9 @@ public class ChainedListener implements View.OnClickListener , CompoundButton.On
      * @return the View.OnClickListener attached to the view; null if it could not be retrieved
      */
     protected static View.OnClickListener getOnClickListener(View view) {
+        if(DISABLED) {
+            return null ;
+        }
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
             return getOnClickListenerV14(view);
         } else {
@@ -34,6 +50,9 @@ public class ChainedListener implements View.OnClickListener , CompoundButton.On
 
 
     public  static CompoundButton.OnCheckedChangeListener getOnCheckedChangeListenerOnCompoundButton(CompoundButton view) {
+        if(DISABLED) {
+            return null ;
+        }
         CompoundButton.OnCheckedChangeListener retrievedListener = null;
         String viewStr = "android.widget.CompoundButton";
         Field field;
@@ -52,6 +71,9 @@ public class ChainedListener implements View.OnClickListener , CompoundButton.On
         return retrievedListener;
     }
     public  static RadioGroup.OnCheckedChangeListener getOnCheckedChangeListenerOnCompoundButton(RadioGroup view) {
+        if(DISABLED) {
+            return null ;
+        }
         RadioGroup.OnCheckedChangeListener retrievedListener = null;
         String viewStr = "android.widget.CompoundButton";
         Field field;

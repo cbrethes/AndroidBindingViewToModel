@@ -1,10 +1,16 @@
+
+/*
+ * Copyright (c) 2015. Christophe BRETHES.
+ * You can copy, modify, use this for your application and if this stuff is usefull for you,
+ *  just let me know 'cbrethes at gmail.com' http://devbreezecorner.blogspot.fr/
+ */
+
 package com.brethes.utils;
 
 /**
- * Created by tof on 18/11/2015.
  * let easy One to One conversion between model and view
  */
 public interface BidiBinderConverter<V,M> {
-    public V convertFromModel(M dataFromModel) ;
-    public M convertFromView(V dataFromView) ;
+    V convertFromModel(M dataFromModel) ;
+    M convertFromView(V dataFromView) ;
 }

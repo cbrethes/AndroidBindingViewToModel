@@ -1,3 +1,11 @@
+
+
+/*
+ * Copyright (c) 2015. Christophe BRETHES.
+ * You can copy, modify, use this for your application and if this stuff is usefull for you,
+ *  just let me know 'cbrethes at gmail.com' http://devbreezecorner.blogspot.fr/
+ */
+
 package com.brethes.utils;
 
 import android.view.View;
@@ -9,7 +17,7 @@ import android.view.View;
  */
 public interface BidiModelChangeWatcher  {
     //note that this property must be alphabetacally sorted after any propertyname. pray for no accentuation.
-    public static final String ALL_PROPERTIES = "|ALL" ;
+    String ALL_PROPERTIES = "|ALL" ;
 
     /**
      * called juste before the setter on dataModel is about to be call.
@@ -22,6 +30,6 @@ public interface BidiModelChangeWatcher  {
      * @param newValue the value that is going to be set.
      * @return false to block the binding (dataModel stay unchanged and after update wont be called), true otherwise.
      */
-    public boolean beforeUpdate(View eventOrigin, Object dataModel, String propertyChain, Object oldValue, Object newValue) ;
-    public void afterUpdate(View eventOrigin, Object dataModel, String propertyChain, Object oldValue, Object newValue) ;
+    boolean beforeUpdate(View eventOrigin, Object dataModel, String propertyChain, Object oldValue, Object newValue) ;
+    void afterUpdate(View eventOrigin, Object dataModel, String propertyChain, Object oldValue, Object newValue) ;
 }
