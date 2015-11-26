@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+                                                                   
+    
+                                                                                                    
+           
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"  android:tag="layout/add_activity_0" xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" android:orientation="vertical">
+
+
+
+            <TextView
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_message"
+            android:gravity="center"
+            tools:context=".MainActivity" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="binding_1"                                                       
+                android:id="@+id/textView_chemin" /><!--"smb://192.168.0.103/mediacenter/test"-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:id="@+id/username_label" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_username"
+                android:tag="binding_2"                         />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:id="@+id/textView_password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_password"
+                android:tag="binding_3"                                   />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afficher en tant que :"
+                android:id="@+id/textView_displayName" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_displayName"
+                android:tag="binding_4"               />
+
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_filesWithoutVideo"
+                android:tag="binding_5"                            
+                android:id="@+id/checkBox_clean_filesWithoutVideo" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_videosamples"
+                android:tag="binding_6"                       
+                android:id="@+id/checkBox_clean_videosamples" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_recursefolders"
+                android:tag="binding_7"                         
+                android:id="@+id/checkBox_clean_recursefolders" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_emptyfolder"
+                android:tag="binding_8"                      
+                android:id="@+id/checkBox_clean_emptyfolder" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_namesreplacedotswithspaces"
+                android:tag="binding_9"                                     
+                android:id="@+id/checkBox_clean_namesreplacedotswithspaces" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_valider_repertoire"
+                android:id="@+id/button_valider_repertoire"
+                android:clickable="true"
+                android:onClick="onClick_button_valider" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/MainActivityLogWindow"
+                android:minLines="11"/>
+        </LinearLayout>
+    </ScrollView>
+         

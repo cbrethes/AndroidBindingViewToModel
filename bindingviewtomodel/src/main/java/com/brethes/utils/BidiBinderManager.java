@@ -198,7 +198,7 @@ public class BidiBinderManager {
      * @param propertyChain the property (like in commons BeanUtils )that could be simple or refer to nested property eg "aProperty.subProperty" .
      */
     public static void bind(View view, Object dataModel,String propertyChain ) {
-        if(view instanceof CheckBox || view instanceof RadioGroup ) {
+        if(view instanceof CompoundButton ) {
             bind(view, EVENT_PROPERTYCHANGE.CHECKED, dataModel, propertyChain, null, true, true, false) ;
         }
         else if(view instanceof TextView) {

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data class="SampleActivyBinding">
+        <variable name="myprefs" type="com.example.android.binding.bidi.data.MyPersistentPrefs"/>
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" android:orientation="vertical">
+
+
+
+            <TextView
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_message"
+            android:gravity="center"
+            tools:context=".MainActivity" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='@{myprefs.folderpath}'
+                android:id="@+id/textView_chemin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:id="@+id/username_label" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_username"
+                android:text='@{myprefs.username ?? "dummy user"}' />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:id="@+id/textView_password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_password"
+                android:text='@{myprefs.password ?? "1234 is secure"}' />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afficher en tant que :"
+                android:id="@+id/textView_displayName" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_displayName"
+                android:text='@{myprefs.displayName}' />
+
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_filesWithoutVideo"
+                android:checked="@{myprefs.cleanFilesWithoutVideo}"
+                android:id="@+id/checkBox_clean_filesWithoutVideo" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_videosamples"
+                android:checked="@{myprefs.cleanVideosamples}"
+                android:id="@+id/checkBox_clean_videosamples" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_recursefolders"
+                android:checked="@{myprefs.cleanRecursefolders}"
+                android:id="@+id/checkBox_clean_recursefolders" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_emptyfolder"
+                android:checked="@{myprefs.cleanEmptyfolder}"
+                android:id="@+id/checkBox_clean_emptyfolder" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_namesreplacedotswithspaces"
+                android:checked="@{myprefs.cleanNamesreplacedotswithspaces}"
+                android:id="@+id/checkBox_clean_namesreplacedotswithspaces" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_valider_repertoire"
+                android:id="@+id/button_valider_repertoire"
+                android:clickable="true"
+                android:onClick="onClick_button_valider" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/MainActivityLogWindow"
+                android:minLines="11"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

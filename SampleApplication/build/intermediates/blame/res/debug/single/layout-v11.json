@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "W:\\dev\\work\\AndroidStudio\\ActionBarCompat-Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "W:\\dev\\work\\AndroidStudio\\ActionBarCompat-Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "W:\\dev\\work\\AndroidStudio\\ActionBarCompat-Basic\\SampleApplication\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "W:\\dev\\work\\AndroidStudio\\ActionBarCompat-Basic\\SampleApplication\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout-v11\\abc_screen_content_include.xml"
+    }
+]

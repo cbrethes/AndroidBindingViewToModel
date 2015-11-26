@@ -1,0 +1,74 @@
+-- Merging decision tree log ---
+manifest
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:4:1-28:12
+	package
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:5:5-47
+	android:versionName
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:6:5-28
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:4:11-69
+uses-permission#android.permission.INTERNET
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:11:22-64
+application
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:12:5-25:19
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:21.0.2] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [ActionBarCompat-Basic:bindingviewtomodel:unspecified] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\ActionBarCompat-Basic\bindingviewtomodel\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from [ActionBarCompat-Basic:bindingviewtomodel:unspecified] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\ActionBarCompat-Basic\bindingviewtomodel\unspecified\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:15:9-47
+activity#com.example.android.binding.bidi.SampleActivity
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:17:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:21.0.2] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.databinding:adapters:1.0-rc5] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.databinding\adapters\1.0-rc5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.0-rc5] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.databinding\library\1.0-rc5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [ActionBarCompat-Basic:bindingviewtomodel:unspecified] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\ActionBarCompat-Basic\bindingviewtomodel\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.databinding:library:1.0-rc5] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.databinding\library\1.0-rc5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.databinding:adapters:1.0-rc5] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.databinding\adapters\1.0-rc5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.0-rc5] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.databinding\library\1.0-rc5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:23.0.0] W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
+		INJECTED from W:\dev\work\AndroidStudio\ActionBarCompat-Basic\SampleApplication\src\main\AndroidManifest.xml
